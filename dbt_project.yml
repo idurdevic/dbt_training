@@ -34,5 +34,8 @@ models:
   dbt_training:
     staging: #resource path
       +materialized: view #+ oznacava konfiguraciju
+    intermediate:
+      +materialized: ephemeral
     marts:
       +materialized: table
+    
