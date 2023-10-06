@@ -48,4 +48,6 @@ models:
       +materialized: ephemeral
     marts:
       +materialized: table
+      +tags:
+        - p1 #priority1
     
