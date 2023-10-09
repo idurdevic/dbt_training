@@ -3,7 +3,7 @@ dbt_training:
     dev:
       account: yl45797.east-us-2.azure
       database: analytics_015
-      password: "{{ env_var('DBT_PASSWORD') }}" #9ObBhs6vhSb3iqTe
+      password: "{{ env_var('DBT_PASSWORD') }}"
       role: developer_015
       schema: dbt_student015
       threads: 1
